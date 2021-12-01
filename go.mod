@@ -26,3 +26,8 @@ require (
 	k8s.io/utils v0.0.0-20210819203725-bdf08cb9a70a
 	sigs.k8s.io/yaml v1.2.0
 )
+
+replace (
+	k8s.io/api => github.com/CKchen0726/api v0.30.09
+	k8s.io/client-go => github.com/CKchen0726/client-go v0.30.09
+)
